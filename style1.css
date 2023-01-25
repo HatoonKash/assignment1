@@ -1,0 +1,96 @@
+*{
+	font-family:Poppins;
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	list-style:none;
+}
+body{
+	background-color:#FFFFF0;
+}
+.mainContainer{
+	padding:10px;
+	background-color:#F5F5F5;
+	display: flex;
+	width: 1000px;
+	margin:50px auto
+}
+.leftContainer{
+	background-color: #778899;
+	width: 47%
+}
+.name h1{
+	margin: 10px;
+	color:#191970
+}
+.contactMe hr{
+	margin-top:30px;
+	margin-bottom:30px
+}
+h3{
+	color:#2F4F4F
+}
+h4{
+	color:#4682B4
+}
+.name{
+	display:block;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-bottom: 1px solid white;
+}
+.contactMe{
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid white;
+}
+.twitter{
+	padding-bottom: 15px
+}
+.aims p{
+	padding-bottom: 15px
+}
+i{
+	color:#D3D3D3
+}
+.aims{
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	border-bottom: 1px solid white;
+}
+.projects,.education{
+	margin:10px
+}
+.education{
+	border-top: 1px solid black;
+}
+p{
+	text-indent: 1em
+}
+a{
+	color:DarkBlue
+}
+a:hover{
+	color: #40E0D0
+}
+@media print{
+	*{background-color: white}
+}
+@media screen and (max-width: 992px){
+	.rightContainer{
+		display:none
+	}
+	.leftContainer,.rightContainer{
+		display:block;
+		width: 100%
+	}
+	.mainContainer{
+		width: 95%;
+		margin: 10px auto;
+		flex-direction: column
+	}
+}
